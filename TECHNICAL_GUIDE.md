@@ -193,7 +193,7 @@
   - 根目录 `start_backend.sh`
   - 根目录 `start_frontend.sh`
 
-## 11. 后续可扩展建议（当前结构已支持）
+## 11. 后续可扩展
 
 - 新增工具：在 `backend/app/tools/builtin_tools.py` 增加 handler 并注册到 `TOOL_REGISTRY`
 - 新增技能：在 `backend/app/agent/skills.py` 扩展 `SKILLS` 与 `pick_skill()`
